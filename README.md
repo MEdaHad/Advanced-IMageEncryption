@@ -89,3 +89,14 @@ a save in location for the Decrypted Data through the Save in Button
 and Finally insert the assigned Decryption Key while Encrypting it on the text box which is 
 beside the text saying key and Click the Decrypt button and 
 the Decryption Process will be Finalized.
+
+
+
+
+
+
+
+
+
+
+
