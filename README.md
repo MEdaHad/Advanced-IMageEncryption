@@ -1,102 +1,98 @@
-# Advanced-IMageEncryption
-This is a Desktop App Named IMage Encryption  which is an Advanced Cryptography  and Steganography System Which  Lets us Securily Encrypt and Decrypt Multi  Extension Data Types with an ease.   
+# Advanced-ImageEncryption
 
+Advanced-ImageEncryption is a desktop application developed using C# on Visual Studio Code 2015. It provides advanced cryptography and steganography capabilities, allowing users to securely encrypt and decrypt various types of data with ease.
 
-it was Developed using C# on Visual Studio Code 2015.
+## Features
 
-Feature's
+### 1. TextCrypt
 
-1- TextCrypt
+The TextCrypt feature enables you to encrypt and decrypt text, making your shared information more secure. Follow these simple steps to use TextCrypt:
 
+**Text Encryption**
 
-  The Form Called TextCrypt will Help you make the texts You Share 
-Secure than Ever by Encrypting and Decrypting it 
-at ease wherever  and whenever you want.
-here is a Simple Steps to  help you Figure this Out
+1. Select the "Encryption" radio button in the Cryptography State Option.
+2. Enter the text you want to encrypt in the Original Text section box.
+3. Choose a unique password and confirm it in the Confirmation box.
+4. Click the "Encrypt" button to finalize the encryption process.
+5. The encrypted text will be displayed in the Encrypted Text section box on the right side.
 
-For Text Encrypting
+**Text Decryption**
 
-First Mark the Radio Button saying Encryption
- which is found inside the Cryptography State Option 
-and following that write down the text You wanted
- to Encrypt inside the text box of the Original Text Section
- Box and Assign a Unique Password You Preferred and Confirm
- it on the Confirmation box then Finally Click The Encrypt button
- to Finalize it.then the Encrypted text will be Displayed on the Right
- side inside the Encrypted Text Section Box.
+1. Select the "Decryption" radio button in the Cryptography State Option.
+2. Paste the encrypted text into the Encrypted Text section box.
+3. Enter the password used during encryption in the Confirmation box.
+4. Click the "Decrypt" button to finalize the decryption process.
+5. The decrypted text (original text) will be displayed in the Original Text section box on the left side.
 
+### 2. IMageCrypt
 
-For Text Decrypting
+The IMageCrypt feature allows you to hide text behind any type of image using steganography. Follow these steps to utilize this functionality:
 
-First Mark the Radio Button saying Decryption which is found inside
- the Cryptography State Option and following that Paste the text You
- wanted to Decrypt inside the text box of the Encrypted Text Section Box
- and insert the assigned Password While Encrption of that Encrypted Text
- and Confirm it on the Confirmation box then Finally Click The Decrypt 
-button to Finalize it.then the Decrypted text(Original text) will be Displayed 
-on the Left side inside the Original Text Section Box.
+1. Click on the "Open Image" menu option to open the Open File Dialog.
+2. Choose an image file in which you want to hide your text and double-click on it.
+3. The selected image will be displayed in the main picture box.
+4. Enter the text you want to hide in the Secret Message box next to the main picture box.
+5. Click the "Encrypt" button to hide the text within the image.
+6. Use the "Save Image" option to save the image with the hidden text to your preferred location.
 
+To display hidden text from an encrypted image:
 
-2 -  IMageCrypt
+1. Insert the encrypted image using the "Open Image" option.
+2. Click the "Decrypt" option.
+3. The hidden text will be displayed in the Secret Message box.
 
-The Form called Image will Help You Simply Hide any text behind any Type of Image
-Which is Commonly Known as Steganography.
-here is how to do it using this Software
+### 3. DataCrypt
 
-First Click on the menu saying Open image 
-and this will Open up Open File Dialog Option
-and will let u Choose for an Image You wish to
-Hide your Text and Double Click on the Image You
-and Double Click on it the Image You Chose will be
-displayed on the Main Picture Box next write down 
-the Text You Want to Hide inside the image in the 
-Sexcret Message box beside the Main Picture box 
-and then Click the Encrypt button following that Click
- the Save Image Option and save the image with 
-a Hiddent text in ur Prefered Location.
+The DataCrypt feature allows you to securely encrypt and decrypt any type of data. Follow these steps to utilize DataCrypt:
 
-and for Dsiplaying a Hidden Text from an Encrypted Image
-insert the Encrypted Image using the Open Image Option and
-then Click The Decrypt Option following that the Hidden 
-Text will be Displayed on the Secret Message Box.
-Simple as That
+**Data Encryption**
 
+1. Select the "Encryption" radio button in the Cryptography State Option.
+2. Click the "Browse" button to locate the data you want to encrypt using the Open File Dialog.
+3. Double-click on the data file you wish to encrypt.
+4. Choose a save location for the encrypted data using the "Save In" button.
+5. Enter a decryption key in the text box next to the "Key" label.
+6. Click the "Encrypt" button to finalize the encryption process.
 
-3 - DataCrypt
+**Data Decryption**
 
+1. Select the "Decryption" radio button in the Cryptography State Option.
+2. Click the "Browse" button to locate the data you want to decrypt using the Open File Dialog.
+3. Double-click on the data file you wish to decrypt.
+4. Choose a save location for the decrypted data using the "Save In" button.
+5. Enter the decryption key used during encryption in the text box next to the "Key" label.
+6. Click the "Decrypt" button to finalize the decryption process.
 
-The Form Called DataCrypt will Help You Securely Encrypt and Decrypt any Type of Data Easily
+## Requirements
 
-For Data Encrypting
+- C# 6.0 or later
+- Visual Studio Code 2015 or later
 
-First Mark the Radio Button saying Encryption which is found inside the Cryptography 
-State Option and following that Browse the Data You want To Encrypt 
-by Clicking on the browse button and Open File Dialog will show up 
-following that double click on the data you want to encrypt and Locate 
-a save in location for the Encrypted Data through the Save in Button 
-and Finally assign a Decryption Key on the text box which is 
-beside the text saying key and Click the Encrypt button and 
-the Encryption Process will be Finalized.
+## Installation
 
+1. Clone the repository: `git clone https://github.com/medahad/Advanced-ImageEncryption.git`
+2. Open the project in Visual Studio Code.
+3. Build the project to generate the executable file.
 
-For Data Decrypting
+## Usage
 
-First Mark the Radio Button saying Decryption which is found inside the Cryptography 
-State Option and following that Browse the Data You want To Decrypt 
-by Clicking on the Browse button and Open File Dialog will show up 
-following that double click on the data you want to Decrypt and Locate 
-a save in location for the Decrypted Data through the Save in Button 
-and Finally insert the assigned Decryption Key while Encrypting it on the text box which is 
-beside the text saying key and Click the Decrypt button and 
-the Decryption Process will be Finalized.
+1. Run the generated executable file.
+2. Explore the different features available within the application.
+3. Follow the instructions provided in the application for encryption, decryption, and hiding text within images.
+4. Ensure that you have the necessary permissions to access and modify files.
 
+## Contributing
 
+Contributions are welcome! If you have any suggestions or encounter any issues, please submit a pull request or open an issue on the GitHub repository.
 
+## License
 
+This project is licensed under the [MIT License](LICENSE).
 
+## Acknowledgements
 
+We would like to thank the following resources and libraries for their contributions to this project:
 
-
-
-
-
+- [Cryptography Library]([https://example.com](https://cryptobook.nakov.com/crypto-libraries-for-developers/c-crypto-libraries))
+- [Steganography Library]([https://example.com](https://freecomputerbooks.com/Image-Steganography-and-Steganalysis.html))
+- [Open File Dialog Library]([https://example.com](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?view=windowsdesktop-7.0))
